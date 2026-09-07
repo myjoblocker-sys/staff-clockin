@@ -12,9 +12,9 @@ app.secret_key = "super_secret_key_for_flash_messages"
 # 🔑 ตั้งค่าระบบส่งข้อมูลหาบอทหลายตัวพร้อมกัน (แบบที่ 1)
 TELEGRAM_BOTS = [
     {
-        'token': 'ว่าง', 
-        'chat_id': 'ว่าง'
-    },  # 👤 บอทตัวที่ 1 (ของคุณเดิม)
+        'token': '8954632792:AAHWbeFnBZW50Pjpt69wcu4p2iUdwLKj5i8', 
+        'chat_id': '5343949498'
+    },  # 👤 พี่เกรท บอทตัวที่ 1 (ของคุณเดิม)
     {
         'token': '8870626887:AAHATmusjdF7G34VE2yRUpKVT2mrZ0d8Vyk', 
         'chat_id': '8638315134'
@@ -22,7 +22,7 @@ TELEGRAM_BOTS = [
     {
         'token': 'ว่าง', 
         'chat_id': 'ว่าง'
-    }   # 🤖 พี่เกรซ บอทตัวที่ 3 (ที่เพิ่มเข้ามาใหม่)
+    }   # 🤖 พี่กัส บอทตัวที่ 3 (ที่เพิ่มเข้ามาใหม่)
 ]
 
 GOOGLE_JSON_KEY = 'google_key.json' 
