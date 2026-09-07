@@ -30,7 +30,7 @@ SPREADSHEET_NAME = 'ระบบลงเวลาพนักงาน'
 
 # 🗂️ รายชื่อพนักงานในระบบของคุณ
 EMPLOYEE_DATA = {
-    "170440": {"name": "บุญฤทธิ์ เสวตเวช (เป้))", "branch": "อะไร"},
+    "170440": {"name": "บุญฤทธิ์ เสวตเวช (เป้)", "branch": "อะไร"},
     "260736": {"name": "สุวนันท์ เพ็งสวัสดิ์ (ต่าย)", "branch": "แสมดำ"},
     "120542": {"name": "พัชราภรณ์ เยรัมย์ (แอน2)", "branch": "แสมดำ"},
     "190444": {"name": "เพชรรัตน์ วงศิลา (แอน1)", "branch": "แสมดำ"},
@@ -55,7 +55,7 @@ def append_to_google_sheet(row_data):
             creds = ServiceAccountCredentials.from_json_keyfile_name(GOOGLE_JSON_KEY, scope)
             
         client = gspread.authorize(creds)
-        sheet = client.open(SPREADSHEET_NAME).sheet1
+        sheet = client.open(SPREADSHEET_NAME).Clockin1
         sheet.append_row(row_data)
     except Exception as e:
         print("บันทึกลง Google Sheets ไม่สำเร็จ:", e)
