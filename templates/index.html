@@ -29,6 +29,7 @@
 <body>
 
     <div class="box">
+        <img src="{{ url_for('static', filename='clockin.png') }}" style="max-width: 120px; margin-bottom: 120px;">
         <h2>⏱️ ลงเวลาเข้างาน-ออกงาน</h2>
         
         {% with messages = get_flashed_messages(with_categories=true) %}
