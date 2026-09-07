@@ -26,7 +26,7 @@ TELEGRAM_BOTS = [
 ]
 
 GOOGLE_JSON_KEY = 'google_key.json' 
-SPREADSHEET_NAME = 'ระบบลงเวลาพนักงาน'
+SPREADSHEET_NAME = 'Clockin1'
 
 # 🗂️ รายชื่อพนักงานในระบบของคุณ
 EMPLOYEE_DATA = {
@@ -55,7 +55,7 @@ def append_to_google_sheet(row_data):
             creds = ServiceAccountCredentials.from_json_keyfile_name(GOOGLE_JSON_KEY, scope)
             
         client = gspread.authorize(creds)
-        sheet = client.open(SPREADSHEET_NAME).Clockin1
+        sheet = client.open(SPREADSHEET_NAME).sheet1
         sheet.append_row(row_data)
     except Exception as e:
         print("บันทึกลง Google Sheets ไม่สำเร็จ:", e)
