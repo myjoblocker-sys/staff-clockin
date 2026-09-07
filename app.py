@@ -28,12 +28,12 @@ TELEGRAM_BOTS = [
 GOOGLE_JSON_KEY = 'google_key.json' 
 SPREADSHEET_NAME = 'Clockin1'
 
-# 🗂️ รายชื่อพนักงานในระบบของคุณ
+# 🗂️ รายชื่อพนักงานในระบบ
 EMPLOYEE_DATA = {
     "170440": {"name": "บุญฤทธิ์ เสวตเวช (เป้)", "branch": "Marketing"},
     "070244": {"name": "จีรารัตน์ ผ่านสุวรรณ (จีปู)", "branch": "Marketing"},
     "040642": {"name": "เมธัส หุรินทร์ (ไมค์)", "branch": "Marketing"},
-    "280637": {"name": "สุพรรษา มึอดทน (แหม่ม)", "branch": "Marketing"},
+    "280637": {"name": "สุพรรษา มึอดทน (แหม่ม)", "branch": "Manager"},
     "301037": {"name": "ปภัสรา คำปลิว (ปอ)", "branch": "Admin"},
     "090447": {"name": "ศุภมาส วาระสิทธิ์ (ปู)", "branch": "Admin"},
     "290336": {"name": "จริญญา กุ่มประสิทธิ์ (นิว)", "branch": "Admin"},
