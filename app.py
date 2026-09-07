@@ -12,8 +12,8 @@ app.secret_key = "super_secret_key_for_flash_messages"
 # 🔑 ตั้งค่าระบบส่งข้อมูลหาบอทหลายตัวพร้อมกัน (แบบที่ 1)
 TELEGRAM_BOTS = [
     {
-        'token': '8752137804:AAENIoQLUoAmjJPYhrASf4-Oa9KkSyZKBps', 
-        'chat_id': '8638315134'
+        'token': 'ว่าง', 
+        'chat_id': 'ว่าง'
     },  # 👤 บอทตัวที่ 1 (ของคุณเดิม)
     {
         'token': '8870626887:AAHATmusjdF7G34VE2yRUpKVT2mrZ0d8Vyk', 
